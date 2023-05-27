@@ -1,4 +1,4 @@
-### 26 May 2023
+### 26 May 2023: Setting up React, Django & PostgreSQL stack
 
 I wish to make a website which is like Codechef/Codeforces/Leetcode. There will be practice problems, users will submit the code and that code will run against the testcases to give the relevant verdict. 
 
@@ -117,6 +117,12 @@ and on pgAdmin, you should see this:
 
 <img src="./img/pgadmin_start_screen.png" width="720">
 
-Because I need to work extensively on Postgresql, here I decide to study as much as possible about Postgresql.
+Because I need to work extensively on Postgresql, here I decide to study as much as possible about Postgresql. I stop the service and then close the windows. 
+
+```sh
+$ brew services stop postgresql@14          
+Stopping `postgresql@14`... (might take a while)
+==> Successfully stopped `postgresql@14` (label: homebrew.mxcl.postgresql@14)
+```
 
 <hr>
